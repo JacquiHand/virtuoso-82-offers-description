@@ -75,6 +75,7 @@ source: a schema:CreativeWork ;
     opllic:partOf <http://data.openlinksw.com/oplweb/offer/WorldCup2026GuideNamedGraphOfferURIBurner#this> ;
     opllic:hasDuration <http://data.openlinksw.com/oplweb/license/License-Duration#ongoing-subscription> ;
     opllic:graphParameter <https://linkeddata.uriburner.com/DAV/demos/daas_paid/world-cup-2026-country-player-guide-meshup-gpt5-chat-1.ttl> ;
+    opllic:uriParameter <https://linkeddata.uriburner.com/sparql?default-graph-uri=&query=SELECT+DISTINCT+%28SAMPLE%28%3Fs%29+AS+%3FsampleEntity%29%28COUNT%28*%29+AS+%3FentityCount%29%28%3Fo+as+%3FEntityType%29%0D%0AFROM+%3Chttps%3A%2F%2Flinkeddata.uriburner.com%2FDAV%2Fdemos%2Fdaas_paid%2Fworld-cup-2026-country-player-guide-meshup-gpt5-chat-1.ttl%3E+%0D%0AWHERE+%7B%3Fs+a+%3Fo%7D+%0D%0ALIMIT+50&should-sponge=&format=text%2Fhtml&timeout=30000> ;
     wdrs:describedby source: .
 
 # -- Offer Description --
